@@ -109,6 +109,8 @@
 # define TERMINFO	1
 #endif
 
+#undef TERMINFO
+#define TERMINFO 1
 
 #if !TERMINFO
 # ifndef KEY_BREAK
